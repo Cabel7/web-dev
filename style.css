@@ -56,12 +56,8 @@ button{
 
 @media (hover: hover), (-moz-touch-enabled: 0), (pointer:fine) {
     button:hover {
-        background-color: red;
+        background-color: white;
     }
-
-button:hover {
-    background-color: #fbfbfb
-}
 
 .operator-btn{ 
 color:rgb(47, 255, 0);
