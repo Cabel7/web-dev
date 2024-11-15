@@ -54,6 +54,11 @@ button{
     transition: 0.2s;
 }
 
+@media (hover: hover), (-moz-touch-enabled: 0), (pointer:fine) {
+    button:hover {
+        background-color: red;
+    }
+
 button:hover {
     background-color: #fbfbfb
 }
